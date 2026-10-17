@@ -86,20 +86,6 @@ function mostraResultado() {
     caixaResultado.classList.add("mostrar");
 }
 
-
 function jogaNovamente() {
     window.location.reload();
-    atual = 0;
-    historiaFinal = "";
-    perguntaAtual = undefined;
-
-    sortearNome();
-
-    caixaResultado.classList.remove("mostrar");
-
-    caixaPerguntas.textContent = "";
-    caixaAlternativas.textContent = "";
-    textoResultado.textContent = "";
-
-    telaInicial.style.display = "block";
 }
