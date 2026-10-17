@@ -86,7 +86,9 @@ function mostraResultado() {
     caixaResultado.classList.add("mostrar");
 }
 
+
 function jogaNovamente() {
+    window.location.reload();
     atual = 0;
     historiaFinal = "";
     perguntaAtual = undefined;
